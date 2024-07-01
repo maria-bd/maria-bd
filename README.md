@@ -24,7 +24,7 @@ Pour construire et exécuter l'application, vous aurez besoin de :
 
 Apres l'installation de postgres/pg admin/ java 21 et Intellij on ouvre Intellij est on choisit: **New Project**
 
-![image](https://github.com/maria-bd/maria-bd/assets/135654272/3c6e5821-c77d-446a-be40-a4fa7adeb686)
+![image](https://github.com/maria-bd/maria-bd/assets/135654272/de512f24-412e-4304-be65-268baf440f71)
 
 - Generator: **Spring Boor**
 
