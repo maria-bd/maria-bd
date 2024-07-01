@@ -137,12 +137,12 @@ pmo
 ## Database Connection 
 Pour mettre en place a base de donner suivez les étapes dans les captures
 - Chosir une source Postgresql
--![image](https://github.com/maria-bd/maria-bd/assets/135654272/2eb3ff46-17a0-49b7-aab0-abedc9f05df7)
+![image](https://github.com/maria-bd/maria-bd/assets/135654272/2eb3ff46-17a0-49b7-aab0-abedc9f05df7)
 - Donnez un nom à votre schéma et a votre base de donner (par défaut le mot de passe pour postgres est postgres)
-- ![image](https://github.com/maria-bd/maria-bd/assets/135654272/236e26ee-d989-488d-adbb-12bc2c069e21)
+ ![image](https://github.com/maria-bd/maria-bd/assets/135654272/236e26ee-d989-488d-adbb-12bc2c069e21)
 - clicker dur test Connection est si tout est bon clicker sur apply pour la creer
 - afficher tout les schémas de la BD on choisissant All Shemas
--![image](https://github.com/maria-bd/maria-bd/assets/135654272/504116c5-4e27-47d9-b5bc-ec337fd341fa)
+![image](https://github.com/maria-bd/maria-bd/assets/135654272/504116c5-4e27-47d9-b5bc-ec337fd341fa)
 - Modifier le fichier application.properties :
    - renommer le fichier : application.yaml
    - ajouter ce code pour faire la liaison avec la BD :
