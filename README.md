@@ -51,4 +51,89 @@ Dans cette étape, on choisira aussi la version de **Spring Boot** qui est **3.2
 
 ![image](https://github.com/maria-bd/maria-bd/assets/135654272/81dd236c-54c9-47c1-b4f1-63a3a4d2efac)
 
+### Hierarchy
+Apres avoir cree notre projet on tombe sur cette hierarchy
+
+pmo
+├── .idea
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.beyn.pmo
+│       │       └── PmoApplication.java
+│       └── resources
+│           ├── static
+│           ├── templates
+│           └── application.proporties
+├── test
+├── target
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+
+
+## Développment
+### Commancement
+Lors du developpement de notre projet on vas traiter sur ces parties : 
+
+pmo
+├── .idea
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.beyn.pmo
+                |---------------------------------------> on vas ajouter les dossiers qui continnent la majarité de notre code ici
+│       │       └── PmoApplication.java
+│       └── resources
+│           ├── static
+│           ├── templates
+│           └── application.proporties ---------------------> ce fichier vas etre changer en application.yaml
+├── test
+├── target
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml ---------------------> ce fichier contient des informations sur le projet ainsi que des plugins et les dépendances, on vas le modifier quand on ajoute des dépendances.
+
+### hierarchy du code source
+pmo
+├── .idea
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.beyn.pmo
+│       │       ├── config
+│       │       ├── controllers
+│       │       ├── dto
+│       │       ├── models
+│       │       ├── repositories
+│       │       ├── services
+│       │       ├── utils
+│       │       └── PmoApplication
+│       └── resources
+│           ├── static
+│           ├── templates
+│           └── application.yaml
+├── test
+├── target
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── users.http -------------------> ce fichier vas servir à tester nos requetes.
+
+## Authentification 
 
