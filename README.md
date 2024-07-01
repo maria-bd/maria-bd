@@ -25,13 +25,11 @@
 
 Apres l'installation de postgres/pg admin/ java 21 et Intellij on ouvre Intellij est on choisit: **New Project**
 
-## Screenshots
-
 ![image](https://github.com/maria-bd/maria-bd/assets/135654272/3c6e5821-c77d-446a-be40-a4fa7adeb686)
 
 - Generator: **Spring Boor**
 
-- Donnez le nom PMO a votre project dans **Name**
+- Name: **PMO** 
 
 - Language: **Java**
 
@@ -45,5 +43,12 @@ Apres l'installation de postgres/pg admin/ java 21 et Intellij on ouvre Intellij
 
 - Packaging : **Jar**
 
-- 
+
+### Dépendances
+On vas choisir quelques dépendances tres importante pour commencer le projet et on rajoutera au fur et à mesure
+
+Dans cette étape, on choisira aussi la version de **Spring Boot** qui est **3.2.7**
+
+![image](https://github.com/maria-bd/maria-bd/assets/135654272/81dd236c-54c9-47c1-b4f1-63a3a4d2efac)
+
 
