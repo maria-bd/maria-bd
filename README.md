@@ -146,7 +146,8 @@ Pour mettre en place a base de donner suivez les étapes dans les captures
 - Modifier le fichier application.properties :
    - renommer le fichier : application.yaml
    - ajouter ce code pour faire la liaison avec la BD :
-  `spring:
+  ```bash
+  spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/pmo_db
     username: postgres
@@ -156,7 +157,8 @@ Pour mettre en place a base de donner suivez les étapes dans les captures
     hibernate:
       ddl-auto: create
     database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect`
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+```
 ### Implementation
 ## Authentification 
 
