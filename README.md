@@ -20,9 +20,30 @@
 - Intellij IDE (code et requetes)
 
 ## Initialisation 
+
+### Création du projet
+
 Apres l'installation de postgres/pg admin/ java 21 et Intellij on ouvre Intellij est on choisit: **New Project**
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/maria-bd/maria-bd/assets/135654272/3c6e5821-c77d-446a-be40-a4fa7adeb686)
+
+- Generator: **Spring Boor**
+
+- Donnez le nom PMO a votre project dans **Name**
+
+- Language: **Java**
+
+- Type: **Maven**
+
+- Group: **com.beyn**
+
+- JDK: **21**
+
+- Java: **21**
+
+- Packaging : **Jar**
+
+- 
 
